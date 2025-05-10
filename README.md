@@ -31,15 +31,10 @@ DB_PASS=
 Si existe el archivo .env lo modificará si no, creará el archivo con lo siguiente:
 
 ACCESS_TOKEN_SECRET =
-
-```bash
-npm start
-```
-
 REFRESH_TOKEN_SECRET =
 
 ```bash
-npm start
+npm run generakey
 ```
 
 ## Admin por defecto
