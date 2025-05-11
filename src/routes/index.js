@@ -4,6 +4,7 @@ import usersRoute from "./userRoute.js";
 import categoryRoute from "./categoryRoute.js";
 import supplierRoute from "./supplierRoute.js";
 import productRoute from "./productRoute.js";
+import reportRoute from "./reportRoute.js";
 
 export {
   authRoute,
@@ -12,4 +13,5 @@ export {
   categoryRoute,
   supplierRoute,
   productRoute,
+  reportRoute,
 };

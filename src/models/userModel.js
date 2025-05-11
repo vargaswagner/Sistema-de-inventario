@@ -2,6 +2,8 @@ import { DataTypes } from "sequelize";
 import bcrypt from "bcrypt";
 
 import database from "../config/database.js";
+import Entrance from "./entranceModel.js";
+import Exit from "./exitModel.js";
 
 const User = database.define(
   "users",

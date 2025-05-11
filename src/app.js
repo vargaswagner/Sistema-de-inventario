@@ -12,6 +12,7 @@ import {
   categoryRoute,
   supplierRoute,
   productRoute,
+  reportRoute,
 } from "./routes/index.js";
 
 // Crear Aplicación
@@ -20,6 +21,10 @@ app.use(cookieParser());
 
 // Middleware para parsear application/json
 app.use(express.json());
+
+Object.values(database).forEach((model) => {
+  if (model.associate) model.associate(database);
+});
 
 // Conectar Base de Datos
 database
@@ -33,7 +38,7 @@ database
 
 // database.sync({ force: true }).then(() => {
 //   console.log("Drop and Resync Db");
-//   initialDatabase();
+//   // initialDatabase();
 // });
 
 // Routing
@@ -43,5 +48,6 @@ app.use("/users", usersRoute);
 app.use("/categories", categoryRoute);
 app.use("/suppliers", supplierRoute);
 app.use("/products", productRoute);
+app.use("/reporte", reportRoute);
 
 export default app;

@@ -1,26 +1,23 @@
 import { DataTypes } from "sequelize";
 import database from "../config/database.js";
-import Entrance from "./entranceModel.js";
+import Exit from "./exitModel.js";
+import Product from "./productModel.js";
 
-const Supplier = database.define("suppliers", {
+const DetailExit = database.define("detail_exit", {
   id: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,
     primaryKey: true,
     allowNull: false,
   },
-  name: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  phone: {
+  amount: {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
-  address: {
-    type: DataTypes.STRING,
+  unit_price: {
+    type: DataTypes.FLOAT,
     allowNull: false,
   },
 });
 
-export default Supplier;
+export default DetailExit;
