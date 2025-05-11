@@ -18,6 +18,11 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 
 Primero, clona el repositorio en tu máquina local:
 
+> git clone git@github.com:vargaswagner/Sistema-de-inventario.git
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
 ```bash
 git clone git@github.com:vargaswagner/Sistema-de-inventario.git
 ```
@@ -74,6 +79,6 @@ l servidor se ejecutará en el puerto 3030 de manera predeterminada. Puedes acce
 
 Abre el siguiente enlace en tu navegador para probar la API:
 
-[http://localhost:3030](http://localhost:3030),
+[http://localhost:3030](http://localhost:3030)
 
 Si prefieres una interfaz más amigable para realizar pruebas, te sugerimos usar Postman, donde podrás probar las diferentes rutas de la API.
