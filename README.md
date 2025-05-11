@@ -36,8 +36,6 @@ El sistema usa PostgreSQL como base de datos, por lo que es necesario configurar
 
 # 🗃️
 
-## 🗃️
-
 1. Crear el archivo `.env` en la raíz del proyecto con la siguiente información:
 
 ```bash
