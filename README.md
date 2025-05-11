@@ -1,27 +1,22 @@
-## 📁 Sistema de Inventario
+## 📁 Sistema de Inventario 📦
 
 :construction: Proyecto en construcción :construction:
 
 Bienvenido al **Sistema de Inventario**. Este proyecto gestiona el inventario de productos, el registro de usuarios, autenticación, la gestión de stock y otras funcionalidades clave. A continuación se describen los pasos para ejecutar y configurar el sistema.
 
-## Requisitos previos
+## Requisitos previos 🔧
 
 Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 
-- **Node.js** (versión recomendada: v14.x o superior)
-- **PostgreSQL** (o cualquier otra base de datos compatible)
-- **npm** o **yarn** (dependiendo del gestor de dependencias que prefieras)
+- **Node.js** (versión recomendada: v14.x o superior) ⚙️
+- **PostgreSQL** (o cualquier otra base de datos compatible) 🗃️
+- **npm** o **yarn** (dependiendo del gestor de dependencias que prefieras) 📦
 
-## Pasos para ejecutar el proyecto
+## Pasos para ejecutar el proyecto 🚀
 
-### 📁 1. Clonar el repositorio
+### 1. Clonar el repositorio 🔄
 
 Primero, clona el repositorio en tu máquina local:
-
-> git clone git@github.com:vargaswagner/Sistema-de-inventario.git
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 ```bash
 git clone git@github.com:vargaswagner/Sistema-de-inventario.git
