@@ -1,4 +1,6 @@
-## Sistema de Inventario
+## 📁 Sistema de Inventario
+
+:construction: Proyecto en construcción :construction:
 
 Bienvenido al **Sistema de Inventario**. Este proyecto gestiona el inventario de productos, el registro de usuarios, autenticación, la gestión de stock y otras funcionalidades clave. A continuación se describen los pasos para ejecutar y configurar el sistema.
 
@@ -12,7 +14,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 
 ## Pasos para ejecutar el proyecto
 
-### 1. Clonar el repositorio
+### 📁 1. Clonar el repositorio
 
 Primero, clona el repositorio en tu máquina local:
 
@@ -20,7 +22,7 @@ Primero, clona el repositorio en tu máquina local:
 git clone git@github.com:vargaswagner/Sistema-de-inventario.git
 ```
 
-### 2. Instalar las dependencias
+### 🛠️ 2. Instalar las dependencias
 
 Una vez clonado el repositorio, navega a la carpeta del proyecto y ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
@@ -28,11 +30,11 @@ Una vez clonado el repositorio, navega a la carpeta del proyecto y ejecuta el si
 npm install
 ```
 
-### 3. Configurar la base de datos
+### 🛠️ 3. Configurar la base de datos
 
-El sistema usa PostgreSQL como base de datos, por lo que es necesario configurar el archivo .env para establecer las credenciales y detalles de conexión.
+El sistema usa PostgreSQL como base de datos, por lo que es necesario configurar el archivo `.env` para establecer las credenciales y detalles de conexión.
 
-1. Crear el archivo .env en la raíz del proyecto con la siguiente información:
+1. Crear el archivo `.env` en la raíz del proyecto con la siguiente información:
 
 ```bash
 PORT=3030
@@ -46,7 +48,7 @@ DB_PASS=
 
 2. Asegúrate de que tu servidor de base de datos esté funcionando y que las credenciales sean correctas. Si utilizas otro sistema de bases de datos, necesitarás ajustar la configuración acorde.
 
-### 4. Generar claves SECRET para JWT
+### 🛠️ 4. Generar claves SECRET para JWT
 
 El sistema utiliza JSON Web Tokens (JWT) para la autenticación. Necesitarás generar claves secretas para firmar los tokens.
 
@@ -56,9 +58,9 @@ Para crear las claves secretas, ejecuta el siguiente comando:
 npm run generakey
 ```
 
-Este comando generará las claves ACCESS_TOKEN_SECRET y REFRESH_TOKEN_SECRET y las agregará automáticamente al archivo .env si no existen.
+Este comando generará las claves `ACCESS_TOKEN_SECRET` y `REFRESH_TOKEN_SECRET` y las agregará automáticamente al archivo .env si no existen.
 
-### 5. Ejecutar el servidor
+### 🛠️ 5. Ejecutar el servidor
 
 Una vez que las dependencias estén instaladas y el archivo .env configurado correctamente, puedes iniciar el servidor con el siguiente comando:
 
