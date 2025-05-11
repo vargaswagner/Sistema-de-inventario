@@ -17,7 +17,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 Primero, clona el repositorio en tu máquina local:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone git@github.com:vargaswagner/Sistema-de-inventario.git
 ```
 
 ### 2. Instalar las dependencias
